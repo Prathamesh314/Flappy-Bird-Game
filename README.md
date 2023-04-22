@@ -17,5 +17,13 @@ This is a Flappy bird game made in python with pygame
 - Try not to collide with the pipes and Create your own best High Score
 
 # Images
-
-<img src="images\home_page.png" width="200" height="200">
+<table>
+    <tr>
+        <td>
+            <img src="images\home_page.png" width="200" height="200">
+        </td>
+        <td>
+            <img src="images\playing_page.png" width="200" height="200">
+        </td>
+    </tr>
+</table>
