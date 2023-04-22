@@ -18,6 +18,12 @@ This is a Flappy bird game made in python with pygame
 
 # Images
 <table>
+    <th>
+        #Home Page
+    </th>
+    <th>
+        # Playing Page
+    </th>
     <tr>
         <td>
             <img src="images\home_page.png" width="200" height="200">
