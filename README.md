@@ -19,10 +19,10 @@ This is a Flappy bird game made in python with pygame
 # Images
 <table>
     <th>
-        #Home Page
+        <h2>Home Page</h2>
     </th>
     <th>
-        # Playing Page
+        <h2>Playing Page</h2>
     </th>
     <tr>
         <td>
