@@ -13,9 +13,9 @@ SCREEN = pygame.display.set_mode(size=(SCREENWIDTH,SCREENHEIGHT))
 GROUNDY = SCREENHEIGHT*0.8
 GAME_SPRITES = {}
 GAME_SOUNDS = {}
-PLAYER = 'flappyBird.png'
-BACKGROUND = 'background.png'
-PIPE = 'pipe.png'
+PLAYER = 'sprites/flappyBird.png'
+BACKGROUND = 'sprites/background.png'
+PIPE = 'sprites/pipe.png'
 
 def welcomeScreen():
     """
@@ -186,8 +186,8 @@ if __name__ == '__main__':
         pygame.image.load("numbers/eight.png").convert_alpha(),
         pygame.image.load("numbers/nine.png").convert_alpha()
     )
-    GAME_SPRITES["message"] = pygame.image.load("message.png").convert_alpha()
-    GAME_SPRITES["base"] = pygame.image.load("base.png").convert_alpha()
+    GAME_SPRITES["message"] = pygame.image.load("sprites/message.png").convert_alpha()
+    GAME_SPRITES["base"] = pygame.image.load("sprites/base.png").convert_alpha()
     GAME_SPRITES["pipe"] = (
         pygame.transform.rotate(pygame.image.load(PIPE).convert_alpha(),180),
         pygame.image.load(PIPE).convert_alpha()

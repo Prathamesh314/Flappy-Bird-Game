@@ -26,10 +26,10 @@ This is a Flappy bird game made in python with pygame
     </th>
     <tr>
         <td>
-            <img src="images\home_page.png" width="200" height="200">
+            <img src="images\home_page.png" alt="home page" width="200" height="200">
         </td>
         <td>
-            &nbsp <img src="images\playing_page.png" width="200" height="200">
+            &nbsp <img src="images\playing_page.png" alt="playing page" width="200" height="200">
         </td>
     </tr>
 </table>
